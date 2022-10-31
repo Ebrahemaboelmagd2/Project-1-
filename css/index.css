@@ -1,0 +1,577 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+nav{
+    height: 90px;
+}
+.container {
+    width: 100%;
+    height: 60px;
+    padding-left: 22px;
+    background-color: white ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Nav-link {
+    padding-right: 40px;
+}
+.Nav-link a {
+    font-size: 15px;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Nav-link a:hover {
+    color: red;
+    height: 0px
+}
+section {
+    width: 100%;
+    height: 700px;
+    background-image: url(Img/Slider.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+h1 {
+    font-size: 55px;
+    padding: 25px;
+}
+.btn {
+    width: 260px;
+    height: 65px;
+    background-color: #fe4a46;
+    border: none;
+    color: white;
+    font-size: larger;
+    margin-top: 60px;
+}
+.btn:hover {
+    background-color: white;
+    color: #fe4a46;
+    border: 1px solid #fe4a46 ;
+    cursor:pointer;
+}
+.text {
+    text-align: center;
+    width: 40%;
+    height: 200px;
+    color: #8e8e8e;
+    margin: auto;
+    padding: 40px 0px;
+}
+.text h2 {
+    color: black;
+    padding-bottom: 20px;
+    animation: identifier 1s;
+}
+@keyframes identifier {
+    0% {transform: translate(0px, -100px);}
+    100% {transform: translate(0px, 0px)}
+}
+.phone-logo {
+    display: flex;
+    justify-content: center;
+}
+.phone-logo .diamond {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 40px;
+}
+p {
+    color: #8e8e8e
+}
+.phone-logo .camera{
+    text-align: left;
+    display: flex;
+    padding: 40px;
+
+}
+.fa-solid {
+    color: #fa5c58;
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 22px;
+}
+.phone-logo h6 {
+    color: black;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.phone-logo p {
+    width: 280px;
+}
+.phone-logo .DESIGN {
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.phone-logo .Photography {
+    margin-top: 20px;
+    margin-right: 25px;
+    padding: 0px 20px;
+}
+.phone-logo .Photography h6 {
+    color: black;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.phone-logo .Photography p {
+    width: 280px;
+} 
+.phone-logo .diamond-coding {
+    text-align: right;
+    margin-right: 35px;
+}
+.phone-logo .coding {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 40px;
+}
+.phone-logo .code {
+    margin-top: 30px;
+    margin-right: 17px;
+}
+.anmishion { 
+    animation:MYMOVE 2s;
+}
+@keyframes MYMOVE {
+    0% {transform: translate(0px, 100px);}
+    50% {transform: translate(0px, 0px);}
+    100% {transform: translate(0px, 0px)}
+}
+.viedo {
+    background-image: url("Img/video-bg.jpg");
+    width: 100%;
+    height: 500px; 
+  
+}
+.viedo .viedo-bg{
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    background-color: rgb(0, 0, 0,0.5);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.viedo .viedo-bg .play-video{
+    display: contents
+}
+.viedo .fa-solid{
+    color: white;
+    background-color: #fa5c58;
+    padding-left: 28px;
+}
+.viedo .viedo-bg h3 {
+    padding: 15px;
+}
+.text2 h2{
+    color: black;
+    padding-bottom: 20px;
+    animation:identifier 1s ;
+} 
+@keyframes identifier {
+    0% {transform: translate(0px, -100px);}
+    100% {transform: translate(0px, 0px)}
+}
+.text2 {
+    text-align: center;
+    width: 40%;
+    height: 200px;
+    color: #8e8e8e;
+    margin: auto;
+    padding: 40px 0px;
+}
+.btn-all {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: black;
+    list-style: none;
+}
+.btn-all a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px 10px;    
+    border: 1px solid;
+    margin: 0px 5px;
+}
+.btn-all a:hover {
+    color: white;
+    background-color: red;
+    border: none;
+}
+.PORTFOLIO{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.PORTFOLIO-1{
+    background-image: url(Img/portfolio/adena.png);
+    width: 25%;
+    height: 270px;
+    background-size: cover;
+}
+.hover-1 {
+        text-align: center;
+        background: rgba(39, 40, 43, 0.8);
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        color: white;
+        margin-top: 35px;
+        opacity: 0;
+}
+.hover-1 p {
+    color: white;
+    padding: 75px 0px 23px 0px;
+}
+.hover-1 h4 {
+    color: #fe4a46;
+}
+.hover-1:hover {
+    opacity: 1;
+}
+.PORTFOLIO-2{
+    background-image: url(Img/portfolio/atom.png);
+    width: 25%;
+    height: 270px;
+    background-size: cover;
+}
+.PORTFOLIO-3{
+    background-image: url(Img/portfolio/flat.png);
+    width: 25%;
+    height: 270px;
+    background-size: cover;
+}
+.PORTFOLIO-4{
+    background-image: url(Img/portfolio/ipad.jpg);
+    width: 25%;
+    height: 270px;
+    background-size: cover;
+}
+.PORTFOLIO-5{
+    background-image: url(Img/portfolio/ket.jpg);
+    width: 25%;
+    height: 270px;
+    background-size: cover;
+}
+.PORTFOLIO-6{
+    background-image: url(Img/portfolio/mentum.png);
+    width: 25%;
+    height: 270px;
+    background-size: cover;
+}
+.PORTFOLIO-7{
+    background-image: url(Img/portfolio/modern-phone.jpg);
+    width: 25%;
+    height: 270px;
+    background-size: cover;
+}
+.PORTFOLIO-8{
+    background-image: url(Img/portfolio/sven.jpg);
+    width: 25%;
+    height: 270px;
+    background-size: cover;
+}
+.container-About-us {
+    background-image: url(Img/about-bg.jpg);
+    width: 100%;
+    height: 600px;
+}
+.About-us {
+    background-color: rgba(39, 40, 43, 0.8);
+    width: 400px;
+    height: 440px;
+    padding: 50px;
+    display: inline-block;
+    margin-left: 260px;
+    margin-top: 100px;
+}
+.About-us h3 {
+    color: white;
+}
+.About-us .border {
+    border-bottom: 2px solid red;
+    width: 55px;
+    margin-top: 30px;
+}
+.About-us p {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.About-us a {
+    text-decoration: none;
+    color: white;
+    background-color: #fe4a46;
+    padding: 15px;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin-left: 25px;
+    width: 100%;
+    animation:team 1s ;
+}
+@keyframes team {
+    0% {transform: translate(0px, 200px);}
+    100% {transform: translate(0px, 0px)}}
+.team .women {
+    background-image: url("Img/team/team-3.jpg");
+    height: 500px;
+    width: 30%;
+    background-size: cover;
+    margin-right: 35px;
+    display: flex;
+    align-items: flex-end;
+}
+.team .women2 {
+    background-image: url("Img/team/team-2.jpg");
+    width: 30%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.team .man {
+    background-image: url("Img/team/team-1.jpg");
+    height: 500px;
+    width: 30%;
+    background-size: cover;
+    margin-left: 35px;
+    display: flex;
+    align-items: flex-end;
+}
+.-women- {
+    background-color: rgba(39, 40, 43, 0.8);
+    height: 150px;
+    color: white;
+    padding: 80px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.fa-brands {
+    padding: 10px;
+}
+.Graphic-designer {
+    margin-top: 85px;
+    color: black;
+    padding: 0px;
+    margin-left: 16px;
+}
+.Graphic-designer p {
+    margin-top: 15px;
+}
+.John-Doe {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.blog {
+    background-image:url(Img/blog-section.jpg) ;
+    width: 100%;
+    height: 1100px;
+    margin-top: 50px;
+    background-size: auto;
+}
+.BLOG-STORIES {
+    text-align: center;
+    width: 40%;
+    margin-bottom: 90px;
+}
+.BLOG-STORIES h3{
+    animation: identifier 1s ;
+    margin-bottom: 20px;
+}
+@keyframes identifier {
+    0% {transform: translate(0px, -100px);}
+    100% {transform: translate(0px, 0px)}
+}
+.BLOG-STORIES p {
+    color: white;
+}
+.container-blog {
+    display: flex;
+}
+.container-blog img {
+    width: 506px;
+}
+.BLOG-TITLE {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding: 60px;
+}
+.blog-anmishion {
+    animation: blog 1s;
+}
+@keyframes blog {
+    0% {transform: translate(-600px, 0px);}
+    100% {transform: translate(0px, 0px)}
+}
+.BLOG-TITLE h3 {
+    color: #fe4a46;
+    margin-top: 25px;
+
+}
+.BLOG-TITLE p {
+    margin-top: 80px;
+    color: white;
+    width: 85%;
+}
+.BLOG-TITLE a {
+    text-decoration: none;
+    color: #fe4a46;
+    text-align: right;
+    display: block;
+    width: 85%;
+    padding-top: 75px;
+}
+.BLOG-TITLE a:hover {
+    text-decoration: 1px underline;
+}
+.fa-solid1 {
+    border-radius: 100%;
+    background-color: #fa5c58;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    line-height: 80px;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.form {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.name {
+    width: 35%;
+    PADDING: 20px;
+    background-color: #f3f3f3;
+    margin-right: 20px;
+    border: none;
+}
+.subject {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 72%;
+    padding: 20px;
+    margin-right: 180px;
+    background-color: #f3f3f3;
+    border: none;
+}
+.address {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 72%;
+    padding: 20px;
+    margin-right: 180px;
+    background-color: #f3f3f3;
+    border: none;
+    height: 200px;
+}
+.btn-form {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 72%;
+    padding: 20px;
+    margin-right: 180px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.btn-form:hover {
+    background-color: white;
+    border: 2px solid red;
+    color: #fe4a46;
+    cursor: pointer;
+}
+.fa-solid-end { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.fa-solid-end .fa-solid {
+    background-color: red;
+    color: white;
+    margin: auto;
+}
+.fa-solid-end .fa-globe {
+    font-size: 40px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+}
+.sevenmail { 
+    display: block;
+    margin-top: 20px;
+}
+.sevenmail-2 {
+    margin-right: 150px;
+}
+.fa-solid-end .div {
+    text-align: center;
+}
+.GraphBerry {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+.GraphBerry P {
+    color: white;
+}
+.GraphBerry a {
+    text-decoration: none; 
+    color: white;
+}
+.GraphBerry a:hover {
+    color: red;
+    text-decoration:underline;
+}
+.GraphBerry .fa-brands {
+    color:white;
+    margin-top: 20px;
+}
+.GraphBerry .fa-brands:hover {
+    background-color: #fe4a46;
+    border-radius: 50%;
+}
